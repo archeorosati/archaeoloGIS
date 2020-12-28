@@ -1,0 +1,48 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=ArcheoloGIS
+qgisMinimumVersion=3.0
+description=A spatial toolbox for ArchaeoloGISts
+version=0.1
+author=Paolo Rosati
+email=archeorosati@gmail.com
+
+about=ArchaeoloGIS is the Processing toolbox for archaeologists in QGIS. The first script release is: "Tabula Peutingeriana", the script calculate and extract the "roman miliaria" from a hub of roman road network of multi-lines. In the code of the plugin, the objects name are in latin for the archeo_fun of the programmers who will help in the release. Projectum, sub Iovis auspicium inauguratum. In de vicesimum sextum dies ex mensis novembris annum AD duemilavicesimum. Noctis tempora.
+
+tracker=https://github.com/archeorosati/tabula_peutingeriana/issues
+repository=https://github.com/archeorosati/tabula_peutingeriana
+
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=yes
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python, archaeology, ancient, past, roads, network analysis, tabula peutingeriana
+
+homepage=https://uniroma1.academia.edu/RosatiPaolo
+category=Analysis
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
