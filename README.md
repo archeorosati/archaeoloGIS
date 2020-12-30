@@ -37,15 +37,15 @@ Drawing the lines it doesn't metter the database core, or the name of the column
 ### Some suggesting columns: 
 It can be useful to insert an ID column and the name of the road (ex. *Via Egnatia* or *Bononia-Ariminium*), can easly refer the miliaria points.
 
-### INPUT LAYER:
+### Input Layer:
 Input Vector Layer --> Load the Road Network line hub.
 
 ### Script results:
 The script will return two results:
-1. Roman Miliaria (interpolated points): 
+**1. Roman Miliaria (interpolated points):** 
 it is a point layer, one point each roman mile (1480 meters). The database of this layer will contain as I say all the information referring to their own segments and two new columns: Distance and Angle.
  - **Distance**: the distance of the miliarium (point) from the previous start of the segment.
  - **Angle**: the angle of the road direction, 0 = North, 90 = Est, 180 = South, 270 = West.
  
-2. **Roman Milia (incremented)**
+**2. Roman Milia (incremented):**
 it is also a point layer, the second result contains all the information of the "Roman Miliaria" and in addiction one only column: "Miliarium" wich indicate the number of miles from the starting point of the segment. You can use this layer and this column for labelling the layer and make useful map for prooving your late-antique researches and theories on the Roman Road Network.
