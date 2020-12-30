@@ -19,6 +19,7 @@ The most important rule is to draw in a "Tabula Peutingeriana Way" as I expose i
 The *Tabula* has a sense of drawing, each road is formed by some segments, each segment has the count of its length in roman miles as in the image.
 
 ![Tabula Peutingeriana](https://github.com/archeorosati/archaeoloGIS/blob/main/Images/tabula-peutingeriana.jpg)
+
 Image 1: a piece of the Tabula Peutingeriana (red lines the roads segments)
 
 Each segment has its own count and starts from a city (*municipium*), a village (*vicus*), a station (*statio*), or a generic pivotal geographic place, and finish to the next one.
@@ -26,6 +27,7 @@ Each segment has its own count and starts from a city (*municipium*), a village 
 To working with the script the hub will made in the same way, remember to draw each road ever from a central geographical point: the *urbs* of Rome, a *municipium*, a *statio* etc. and must end to the sequent pivotal place. You can decide to refer your hub and replicate the Tabula or not; the *Tabula* was the map of the late-antique Roman world, the known inhabited world (*ecumene*) and you can free use it to draw your hub to understand the administration of the late-antique romans provinces.
 
 ![Tabula Peutingeriana2](https://github.com/archeorosati/archaeoloGIS/blob/main/Images/tp_roma_vs.jpg)
+
 Image 2: focus on Rome in the Tabula Peutingeriana (red lines the roads segments with name and miles until the next start of a new segment)
 
 ### Resume:
@@ -55,5 +57,6 @@ it is a point layer, one point each roman mile (1480 meters). The database of th
 **2. Roman Milia (incremented):**
 it is also a point layer, the second result contains all the information of the "Roman Miliaria" and in addiction one only column: "Miliarium" wich indicate the number of miles from the starting point of the segment. You can use this layer and this column for labelling the layer and make useful map for prooving your late-antique researches and theories on the Roman Road Network.
 
-[Tabula Peutingeriana2](https://github.com/archeorosati/archaeoloGIS/blob/main/Images/18983388_1549968645076978_902180483_n.jpg)
+![Tabula Peutingeriana2](https://github.com/archeorosati/archaeoloGIS/blob/main/Images/18983388_1549968645076978_902180483_n.jpg)
+
 Image 3: focus on Padania Plan (Northen Italy) in the Tabula Peutingeriana (red lines the roads segments with name and miles until the next start of a new segment)
