@@ -20,7 +20,7 @@ The *Tabula* has a sense of drawing, each road is formed by some segments, each 
 
 ![Tabula Peutingeriana](https://github.com/archeorosati/archaeoloGIS/blob/main/Images/tabula-peutingeriana.jpg)
 
-Image 1: a piece of the Tabula Peutingeriana (red lines the roads segments)
+Image 1: a piece of the Tabula Peutingeriana focusing on Palestina (red lines the roads segments)
 
 Each segment has its own count and starts from a city (*municipium*), a village (*vicus*), a station (*statio*), or a generic pivotal geographic place, and finish to the next one.
 
