@@ -59,4 +59,8 @@ it is also a point layer, the second result contains all the information of the 
 
 ![Tabula Peutingeriana2](https://github.com/archeorosati/archaeoloGIS/blob/main/Images/18983388_1549968645076978_902180483_n.jpg)
 
+How to Cite: 
+Paolo Rosati, *ArchaeoloGIS: a QGIS processing toolbox for archaeologists spatial analysis. The Tabula Peutingeriana script*, Rome 2020.
+https://github.com/archeorosati/archaeoloGIS/edit/main/README.md
+
 Image 3: focus on Padania Plan (Northen Italy) in the Tabula Peutingeriana (red lines the roads segments with name and miles until the next start of a new segment)
