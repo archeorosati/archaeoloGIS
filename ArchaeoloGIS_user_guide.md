@@ -57,10 +57,16 @@ it is a point layer, one point each roman mile (1480 meters). The database of th
 **2. Roman Milia (incremented):**
 it is also a point layer, the second result contains all the information of the "Roman Miliaria" and in addiction one only column: "Miliarium" wich indicate the number of miles from the starting point of the segment. You can use this layer and this column for labelling the layer and make useful map for prooving your late-antique researches and theories on the Roman Road Network.
 
-![Tabula Peutingeriana2](https://github.com/archeorosati/archaeoloGIS/blob/main/Images/18983388_1549968645076978_902180483_n.jpg)
+30/12/2020 Paolo Rosati
 
-How to Cite: 
+Sapienza University of Rome
+
+**How to Cite**: 
 Paolo Rosati, *ArchaeoloGIS: a QGIS processing toolbox for archaeologists spatial analysis. The Tabula Peutingeriana script*, Rome 2020.
-https://github.com/archeorosati/archaeoloGIS/edit/main/README.md
+https://github.com/archeorosati/archaeoloGIS/main/ArchaeoloGIS_user_guide.md
+
+contacts: paolo.rosati@uniroma1.it
+
+![Tabula Peutingeriana2](https://github.com/archeorosati/archaeoloGIS/blob/main/Images/18983388_1549968645076978_902180483_n.jpg)
 
 Image 3: focus on Padania Plan (Northen Italy) in the Tabula Peutingeriana (red lines the roads segments with name and miles until the next start of a new segment)
