@@ -63,7 +63,9 @@ Sapienza University of Rome
 
 **How to Cite**: 
 Paolo Rosati, *ArchaeoloGIS: a QGIS processing toolbox for archaeologists spatial analysis. The Tabula Peutingeriana script*, Rome 2020.
-https://github.com/archeorosati/archaeoloGIS/main/ArchaeoloGIS_user_guide.md
+https://github.com/archeorosati/archaeoloGIS/blob/main/ArchaeoloGIS_user_guide.md 
+
+{yyyy/mm/dd hh:mm}
 
 contacts: paolo.rosati@uniroma1.it
 
