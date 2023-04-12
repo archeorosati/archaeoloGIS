@@ -22,9 +22,9 @@ The *Tabula* has a sense of drawing, each road is formed by some segments, each 
 
 Image 1: a piece of the Tabula Peutingeriana focusing on Palestina (red lines the roads segments)
 
-Each segment has its own count and starts from a city (*municipium*), a village (*vicus*), a station (*statio*), or a generic pivotal geographic place, and finish to the next one.
+Each segment has its own count and starts from a point i.e. a (*municipium*), a village (*vicus*), a station (*statio*), or a generic pivotal geographic place, and finish to the next one.
 
-To working with the script the hub will made in the same way, remember to draw each road ever from a central geographical point: the *urbs* of Rome, a *municipium*, a *statio* etc. and must end to the sequent pivotal place. You can decide to refer your hub and replicate the Tabula or not; the *Tabula* was the map of the late-antique Roman world, the known inhabited world (*ecumene*) and you can free use it to draw your hub to understand the administration of the late-antique romans provinces.
+To working with the script the hub's segmets could be draw evere in the same direction. Draw each road segment ever from a central geographical point i.e. the *urbs* of Rome, Alexandria, Damascus, a *municipium*, a *statio* of Rome, Alexandria, Damascus, a *municipium*, a *statio* etc., and it must end at the central place mentioned in the archaeological sources being studied. You can decide to refer your hub and replicate the Archaeological source or not; in these examples the *Tabula* was the map of the late-antique Roman world, the known inhabited world (*ecumene*) and you can free use it to draw your hub to understand the administration of the late-antique romans provinces.
 
 ![Tabula Peutingeriana2](https://github.com/archeorosati/archaeoloGIS/blob/main/Images/tp_roma_vs.jpg)
 
@@ -32,19 +32,22 @@ Image 2: focus on Rome in the Tabula Peutingeriana (red lines the roads segments
 
 ### Resume:
 - Draw vector QGIS lines
-- Ever from a starting area or point, every each road **must start** from the center of your research (ex. Rome, Anthiochia, Londinium etc.)
-- Draw segments as in the *Tabula Peutingeriana* (ex. from a roman city to a village, then to a station, then to antother city)
-- The Roman Road Network **must be made** by a moltitude of lines (do not unite the segment of the network)  
+- Ever from a starting area or point, every each road **must start** from the center of your research (ex. _Rome, Anthiochia, Londinium_ etc.)
+- Draw segments in the same direction, from the starting point to the ending point (ex. from a roman city to a village, then to a station, then to antother city)
+- The Roman Road Network **must be made** by a moltitude of lines (do not merge the segments of the network)  
 
 ### Before launching the script:
-After the installation, the script will be in the "Processing Toolbar" at the right of the QGIS software.
-Drawing the lines it doesn't metter the database core, or the name of the columns you insert inside your Roman Road Network layer, you have to know just that the result of the script, the two point layers, will hereditate all the informations. 
+- After the plugin installation, the script will be in the "Processing Toolbar" at the right of the QGIS software.
+- Drawing the lines it doesn't metter the database/layer vector format, or the name of the columns you have inside your "Roman Road Network layer", you have to know just that the result of the script, the two point layers, will hereditate all the informations of the road network.
+- It can be useful to insert an ID column and the name of the road (ex. *Via Egnatia* or *Bononia-Ariminium*), can easly refer the miliaria points.
+-  **The QGIS project must be in a Projected Reference system (e.g in Italy WGS/84 UTM Zone 33 N EPSG:32633).**
+- it is recommended to use the same project reference system in the network layers as well. 
 
-### Some suggesting columns: 
-It can be useful to insert an ID column and the name of the road (ex. *Via Egnatia* or *Bononia-Ariminium*), can easly refer the miliaria points.
+Once installed, from the Processing toolbox Launch the plugin:
 
 ### Input Layer:
-Input Vector Layer --> Load the Road Network line hub.
+- Input Vector Layer --> Load the Road Network hub made of vector lines.
+- You can flag the option to work only on the selected road.
 
 ### Script results:
 The script will return two results:
@@ -62,7 +65,7 @@ it is also a point layer, the second result contains all the information of the 
 Sapienza University of Rome
 
 **How to Cite**: 
-Paolo Rosati, *ArchaeoloGIS: a QGIS processing toolbox for archaeologists spatial analysis. The Tabula Peutingeriana script*, Rome 2020.
+Paolo Rosati, *ArchaeoloGIS: a QGIS processing toolbox for archaeologists spatial analysis. The Tabula Peutingeriana script*, Rome 2022.
 https://github.com/archeorosati/archaeoloGIS/blob/main/ArchaeoloGIS_user_guide.md 
 
 {yyyy/mm/dd hh:mm}
